@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="styles.css" />
+		<title>Sign-Up Form</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="image-container">
+				<img src="./images/nightclub.jpg" alt="Nightclub" id="form-image" />
+				<div class="image-brand">
+					<img src="./images/crestmoon.png" alt="Moon Logo" />
+					<h1 class="logo-text">Luminex</h1>
+				</div>
+			</div>
+
+			<div class="form-container">
+				<h3 class="form-heading">
+					This is not a real online service! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus, commodi! Sign up now
+					to get started.<br /><br />You <i>know</i> you want to.
+				</h3>
+
+				<form>
+					<h3 class="form-cpa">Let's do this!</h3>
+
+					<div class="form">
+						<div class="left-form">
+							<label for="fname">First name:</label>
+							<input type="text" id="fname" name="fname" required />
+							<label for="email">Email:</label>
+							<input type="email" id="email" name="email" required />
+							<label for="password">Password:</label>
+							<input type="password" id="password" name="password" required />
+						</div>
+
+						<div class="right-form">
+							<label for="lname">Last name:</label>
+							<input type="text" id="lname" name="lname" required />
+							<label for="phonenumber">Phone number:</label>
+							<input type="tel" id="phonenumber" name="phonenumber" required />
+							<label for="passwordconfirm">Confirm password:</label>
+							<input type="password" id="passwordconfirm" name="passwordconfirm" required />
+						</div>
+					</div>
+				</form>
+				<div class="cpa-container">
+					<button type="button">Create Account</button>
+					<p>Already have an account? <a href="#">Log In</a></p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
